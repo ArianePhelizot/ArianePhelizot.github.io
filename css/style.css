@@ -65,21 +65,26 @@ body {
 margin: auto auto;
 }
 
+/*POUR LES CARTES D'ENTREE */
 
 .entry-card {
   height: 110px;
+  /* à adpater en fonction du device!!!!*/
   padding: 10px;
   padding-top: 10px;
   margin-top:20px;
   font-color: white;
 }
 
-.cat-text h4{
+.cat-text h5{
   color: white;
+  margin-bottom: 0;
 }
 
 .cat-text p{
   color: white;
+  padding-top: 0px;
+  margin-bottom: 0;
 }
 
 #energy {
@@ -104,6 +109,30 @@ margin: auto auto;
 
 #bas_carbone {
   background-color: #FBDC00;
+}
+
+#sobriété {
+  background-color: #E0607E;
+}
+
+#initiatives {
+  background-color: #25DAC0;
+}
+
+#expertise {
+  background-color: #B12085;
+}
+
+#entreprise_engagée {
+  background-color: #BDBF09;
+}
+
+#compensation {
+  background-color: #4D4858;
+}
+
+#institutions {
+  background-color: #C2714F;
 }
 
 /*FOOTER*/
