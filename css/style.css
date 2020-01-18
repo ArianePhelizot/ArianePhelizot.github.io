@@ -2,7 +2,10 @@
 
 /* --- Import Components stylesheets --- */
 @import url("components/navbar.css");
-@import url("entry.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/entry-card.css");
+@import url("components/carte.css");
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -12,46 +15,7 @@ body {
   color: #1BCB7F;
 }
 
-#carte {
-  width: 900px;
-  height: 590px;
-}
-
-.banner-button {
-  color: white;
-  padding: 8px 24px;
-  border-radius: 4px;
-  background: #1EDD88;
-  transition: background 0.3s ease;
-}
-
-.banner-button-flat:hover {
-  background: #1BCB7F;
-  color: white;
-  text-decoration: none;
-}
-
-.banner {
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-}
-
-.banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .9;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-}
-
+/*A revoir supprimer / Bootstrapper*/
 .padding-top-15 {
   padding-top: 15;
 }
@@ -59,111 +23,6 @@ body {
 .padding-bottom-15{
     padding-bottom: 15;
 }
-
-/*de fonctionne pas vraiment pour autant*/
-.mindmap {
-margin: auto auto;
-}
-
-/*POUR LES CARTES D'ENTREE */
-
-.entry-card {
-  height: 110px;
-  /* à adpater en fonction du device!!!!*/
-  padding: 10px;
-  padding-top: 10px;
-  margin-top:20px;
-  font-color: white;
-}
-
-.cat-text h5{
-  color: white;
-  margin-bottom: 0;
-}
-
-.cat-text p{
-  color: white;
-  padding-top: 0px;
-  margin-bottom: 0;
-}
-
-#energy {
-  background-color: #7D83FF;
-}
-
-#transport {
-  background-color: #FB785A;
-}
-
-#alimentation {
-  background-color: #147319;
-}
-
-#biens {
-  background-color: #F7901B;
-}
-
-#construction {
-  background-color: #6D7A67;
-}
-
-#bas_carbone {
-  background-color: #FBDC00;
-}
-
-#sobriété {
-  background-color: #E0607E;
-}
-
-#initiatives {
-  background-color: #25DAC0;
-}
-
-#expertise {
-  background-color: #B12085;
-}
-
-#entreprise_engagée {
-  background-color: #BDBF09;
-}
-
-#compensation {
-  background-color: #4D4858;
-}
-
-#institutions {
-  background-color: #C2714F;
-}
-
-/*FOOTER*/
-.footer {
-  background: #F4F4F4;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
-}
-.footer-links {
-  display: flex;
-  align-items: center;
-}
-.footer-links a {
-  color: black;
-  opacity: 0.15;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
-}
-.footer-links a:hover {
-  opacity: 1;
-}
-.footer .fa-heart {
-  color: #D23333;
-}
-
-
 
 
 /* [...] */
