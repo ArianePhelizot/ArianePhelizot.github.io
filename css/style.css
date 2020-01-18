@@ -2,6 +2,7 @@
 
 /* --- Import Components stylesheets --- */
 @import url("components/navbar.css");
+@import url("entry.css");
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -62,6 +63,47 @@ body {
 /*de fonctionne pas vraiment pour autant*/
 .mindmap {
 margin: auto auto;
+}
+
+
+.entry-card {
+  height: 110px;
+  padding: 10px;
+  padding-top: 10px;
+  margin-top:20px;
+  font-color: white;
+}
+
+.cat-text h4{
+  color: white;
+}
+
+.cat-text p{
+  color: white;
+}
+
+#energy {
+  background-color: #7D83FF;
+}
+
+#transport {
+  background-color: #FB785A;
+}
+
+#alimentation {
+  background-color: #147319;
+}
+
+#biens {
+  background-color: #F7901B;
+}
+
+#construction {
+  background-color: #6D7A67;
+}
+
+#bas_carbone {
+  background-color: #FBDC00;
 }
 
 /*FOOTER*/
