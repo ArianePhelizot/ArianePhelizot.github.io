@@ -11,6 +11,11 @@ body {
   color: #1BCB7F;
 }
 
+#carte {
+  width: 900px;
+  height: 590px;
+}
+
 .banner-button {
   color: white;
   padding: 8px 24px;
