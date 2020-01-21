@@ -51,6 +51,13 @@ body {
 }
 
 
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    margin: 0px;
+  }
+}
+
 
 
 /* [...] */
