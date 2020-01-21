@@ -1,5 +1,12 @@
 /*POUR LES CARTES D'ENTREE */
 
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .entry-card {
+    height: 200px;
+  }
+}
+
 .entry-card {
   height: 110px;
   /* à adpater en fonction du device!!!!*/
@@ -8,13 +15,6 @@
   margin-top:20px;
   font-color: white;
   margin-left: -15px;
-}
-
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .entry-card {
-    height: 200px;
-  }
 }
 
 .cat-text h5{
