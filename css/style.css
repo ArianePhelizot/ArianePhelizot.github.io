@@ -7,8 +7,10 @@
 @import url("components/entry-card.css");
 @import url("components/carte.css");
 
-body {
-  font-family: 'Source Sans Pro', sans-serif;
+body p, h1, h2, h3, h4, h5, h6, ul, li, a {
+  /*font-family: 'Source Sans Pro', sans-serif;
+  */
+  font-family: Source Sans Pro, sans-serif;
 }
 
 #shiftdejob {
@@ -50,7 +52,41 @@ body {
   color: #1BCB7F;
 }
 
+/*test banner bis sur home bis*/
 
+.banner-bis h1{
+  font-size: 5vw;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
 
+.banner-bis {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+#arrow {
+  size: 500px;
+  padding-bottom: 3px;
+}
+
+#intro-carte h1 {
+  font-size: 4vw;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+#green {
+  background-color: #1BCB7F;
+}
+
+#green h1, h2{
+  color: white;
+  padding: 30px;
+}
 
 /* [...] */
