@@ -17,6 +17,17 @@ body p, h1, h2, h3, h4, h5, h6, ul, li, a {
   color: #1BCB7F;
 }
 
+h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#equation {
+  font-size: 145%;
+  padding-top: 20;
+  padding-bottom: 20;
+}
+
 /*A revoir supprimer / Bootstrapper*/
 .padding-top-15 {
   padding-top: 15;
